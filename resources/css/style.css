@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  background-color: black;
+  height: 69px;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+.logo {
+  width: 100%;
+}
+.logo, img {
+  height: 50px;
+  padding-left: 10px;
+}
+.heading {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.list {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration-color: seashell;
+  padding: 10px;
+}
