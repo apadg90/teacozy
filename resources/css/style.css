@@ -43,7 +43,6 @@ a {
 .container {
   display: flex;
   width: 100%;
-  border: 1px solid blue;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -52,16 +51,13 @@ a {
 }
 #mission {
   display: flex;
-  border: 1px solid black;
   height: 700px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 align-items: center;
 }
 .statement {
-  border: 1px solid red;
   width: 1200px;
-
   text-align: center;
   background-color: black;
   color: white;
@@ -84,6 +80,38 @@ align-items: center;
 .locations {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
+  height: 600px;
   width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 15px 40px;
+}
+.east {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 15px 40px;
+}
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 15px 40px;
+}
+.contact {
+  text-align: center;
+}
+footer {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
 }
